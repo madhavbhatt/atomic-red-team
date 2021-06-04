@@ -16,7 +16,7 @@ atomic_tests:
       type: String
       default: localhost
 
-  dependency_executor_name: SSHPASS # (optional) The executor for the prereq commands, defaults to the same executor used by the attack commands.
+  dependency_executor_name: bash # (optional) The executor for the prereq commands, defaults to the same executor used by the attack commands.
   dependencies: # (optional)
     - description: |
         Requires Installation of SSHPASS
@@ -56,7 +56,7 @@ atomic_tests:
       type: String
       default: localhost
 
-  dependency_executor_name: SSHPASS # (optional) The executor for the prereq commands, defaults to the same executor used by the attack commands.
+  dependency_executor_name: bash # (optional) The executor for the prereq commands, defaults to the same executor used by the attack commands.
   dependencies: # (optional)
     - description: |
         Requires Installation of SSHPASS
